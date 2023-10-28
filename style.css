@@ -1,0 +1,37 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.mt-20px {
+    margin-top: 20px;
+}
+
+.border {
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.btn-green {
+    display: inline-block;
+    text-transform: capitalize; /* I assume this is intentional */
+    font-size: 16px; /* Removed space between the value and 'px' */
+    font-weight: 900;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 2px;
+    position: relative;
+    border: 1px solid #01ca8b;
+    box-shadow: 0 0 0 4em #01ca8b inset;
+    transition: all 350ms ease;
+}
+
+.btn-green:hover {
+    box-shadow: 0 0 0 0 #01ca8b inset;
+    background: #fff;
+    color: #81ca8b;
+}
