@@ -1,3 +1,4 @@
+/*common*/
 body {
     padding: 0;
     margin: 0;
@@ -38,7 +39,7 @@ a, a:hover {
 .btn-transparent {
     border: 1px solid #fff;
 }
-
+/*Header*/
 header {
     position: absolute;
     top: 0;
@@ -46,7 +47,7 @@ header {
     z-index: 1;
     width: 100%;
     border-bottom: 1px solid #fff;
-    background: #000;
+   
 }
 .header-active{
     position: fixed;
@@ -126,4 +127,27 @@ header {
     display: inline;
     font-size: 16px;
    transition: 0.2s ease-in-out
+}
+.header-social ul li a:hover i{
+    color: #01ca8b;
+}
+/*Banner*/
+.banner{
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 16em 0 14 em 0;
+    box-shadow: -5px -5px 30px 5px  #e1f3ff 5px 5px 30px 5px #e1f3ff;
+}
+.banner-contant{
+    width: 80%;
+}
+.banner-contant h1{
+    color:  #fff;
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 10px;
+    line-height: 80px;
+
+
 }

@@ -17,7 +17,7 @@
                 <div class="col-md-7 border">
                     <div class="logo border">
                         <a href="index.html"> 
-                            <img src="logo.png" alt=" logo"> 
+                            <img src="images/7d2c726a86998428f8ba9800860b4f6e--hospital-design-hospitals.jpg" alt="logo" style="height: 80px; width: 50%;">
                         </a>
                     </div>
                     <div class="menu">
@@ -61,5 +61,38 @@
             </div>
         </div>
     </header>
+
+    <section class="banner" style="background-image: url(./images/group-doctors-cooperating-while-examining-xray-patient-hopital.png);">
+        <div class="container">
+            <div class="banner-content">
+                  <img src="images/group-doctors-cooperating-while-examining-xray-patient-hopital.png" alt="image loding error" style="height: 1024px; width: auto;"> 
+                <h1> Our experties at your service</h1> 
+            </div>
+            <div class=" servic">
+                <a href="javascript:void(0);">
+                    <div class="servic-content">
+                        Our Service Provider
+                    </div>
+                    <div class="servic-btn">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script> 
+        var header = document.getElementByTagName("header")
+        window.onscroll = function () {scrollFunction()};
+
+        function scrollFunction(){
+             if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
+                header[0].setAttribute("class","header-active");
+             }
+            else{
+                header[0].removeAttribute("class")
+            }
+        }
+
+    </script>
 </body>
 </html>
